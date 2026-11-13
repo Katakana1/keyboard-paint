@@ -25,6 +25,9 @@ body {
 img,
 video {
   height: auto;
-  image-rendering: pixelated;
   max-width: 100%;
+}
+
+canvas {
+  image-rendering: pixelated;
 }
